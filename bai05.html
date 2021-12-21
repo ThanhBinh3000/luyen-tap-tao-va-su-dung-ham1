@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bài 05</title>
+</head>
+<body>
+<script>
+
+    function total() {
+        let a=prompt('nhập');
+        let nextex=["Polaris"," Aldebaran","Deneb","Vega","Altair","Dubhe","Regulus"];
+        let nextex1=["UrsaMinor","Tarurus","Cygnus","lyra","Aquila","UrsaMajor","leo"];
+        for (i=0;i<nextex.length;i++) {
+            if (a == nextex[i]) {
+                alert('có ngôi sao trong mảng sao này ' + 'chòm sao tương ứng: ' + nextex1[i]);
+                return;
+
+            }
+        }alert('không có tên sao trong mảng');
+    }
+    total();
+</script>
+</body>
+</html>
